@@ -1,6 +1,7 @@
 <?php
 
 namespace Dynamic\Elements\Carousel\Tests;
+
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Dev\SapphireTest;
 use Dynamic\Elements\Carousel\Elements\ElementCarousel;

@@ -116,6 +116,6 @@ class ElementCarousel extends BaseElement
      */
     public function getType()
     {
-        return _t(__CLASS__.'.BlockType', 'Carousel');
+        return _t(__CLASS__ . '.BlockType', 'Carousel');
     }
 }
