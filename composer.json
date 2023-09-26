@@ -1,0 +1,31 @@
+{
+    "name": "dynamic/silverstripe-elemental-carousel",
+    "description": "A block to implement dynamic/silverstripe-carousel, a simple carousel for Silverstripe in Bootstrap.",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "CMS"
+    ],
+    "require": {
+        "dnadesign/silverstripe-elemental": "^5",
+        "dynamic/silverstripe-carousel": "^1.0",
+        "silverstripe/framework": "^5.0"
+    },
+    "require-dev": {
+        "silverstripe/recipe-testing": "^3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\Elements\\Carousel\\": "src/",
+            "Dynamic\\Elements\\Carousel\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}
