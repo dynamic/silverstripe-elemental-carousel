@@ -1,0 +1,8 @@
+Dynamic\Carousel\Model\ImageSlide:
+  one:
+    Name: "Slide One"
+
+Dynamic\Elements\Carousel\Elements\ElementCarousel:
+  one:
+    Title: 'Carousel'
+    Slides: =>Dynamic\Carousel\Model\ImageSlide.one
