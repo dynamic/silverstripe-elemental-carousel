@@ -9,7 +9,7 @@
     ],
     "require": {
         "dnadesign/silverstripe-elemental": "^5",
-        "dynamic/silverstripe-carousel": "^1.0",
+        "dynamic/silverstripe-carousel": "^1@dev",
         "silverstripe/framework": "^5.0"
     },
     "require-dev": {
