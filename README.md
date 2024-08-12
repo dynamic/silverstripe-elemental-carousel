@@ -14,7 +14,7 @@ A block to implement dynamic/silverstripe-carousel, a simple carousel for Silver
 
 * Silverstripe CMS ^5.0
 * dnadesign/silverstripe-elemental: ^5.0
-* dynamic/silverstripe-carousel: ^1.0
+* dynamic/silverstripe-carousel: ^2.0
 
 ## Installation
 
