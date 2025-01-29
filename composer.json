@@ -22,10 +22,5 @@
             "Dynamic\\Elements\\Carousel\\": "src/",
             "Dynamic\\Elements\\Carousel\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
     }
 }
