@@ -2,23 +2,28 @@
 
 A block to implement dynamic/silverstripe-carousel, a simple carousel for Silverstripe in Bootstrap
 
-[![CI](https://github.com/dynamic/silverstripe-elemental-carousel/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-carousel/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-carousel/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-carousel)
+[![CI](https://github.com/dynamic/silverstripe-elemental-carousel/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-carousel/actions/workflows/ci.yml) [![GitHub Sponsors](https://img.shields.io/github/sponsors/dynamic)](https://github.com/sponsors/dynamic)
 
-[![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel)
-[![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/downloads)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel)
-[![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/v/unstable)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel)
-[![License](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/license)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel)
+[![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel) [![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/downloads)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel) [![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/v/unstable)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel) [![License](https://poser.pugx.org/dynamic/silverstripe-elemental-carousel/license)](https://packagist.org/packages/dynamic/silverstripe-elemental-carousel)
 
 ## Requirements
 
-* Silverstripe CMS ^5.0
-* dnadesign/silverstripe-elemental: ^5.0
-* dynamic/silverstripe-carousel: ^2.0
+* PHP ^8.3
+* SilverStripe ^6
+* dnadesign/silverstripe-elemental ^6
+* dynamic/silverstripe-carousel ^3
 
 ## Installation
 
 `composer require dynamic/silverstripe-elemental-carousel`
+
+## Features
+
+- **Carousel Block**: Elemental block for image carousels
+- **Slide Management**: Add, reorder, and manage carousel slides in the CMS
+- **Flexible Configuration**: Control transitions, autoplay, intervals, controls, and indicators
+- **Bootstrap 5 Support**: Default templates optimized for Bootstrap 5
+- **Content Integration**: Add rich-text content alongside carousel slides
 
 ## License
 
@@ -39,6 +44,15 @@ See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?
 ## Configuration
 
 See [SilverStripe Elemental Configuration](https://github.com/silverstripe/silverstripe-elemental#configuration)
+
+## Upgrading from version 2
+
+SilverStripe Elemental Carousel 3.0 is compatible with SilverStripe 6. Key changes:
+
+- Updated to SilverStripe CMS 6
+- Requires PHP 8.3 or higher
+- Updated to Elemental 6 and Carousel 3
+- No breaking changes to the API or templates
 
 ## Maintainers
 
