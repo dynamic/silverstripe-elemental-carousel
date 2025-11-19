@@ -10,8 +10,8 @@ A block to implement dynamic/silverstripe-carousel, a simple carousel for Silver
 
 * PHP ^8.3
 * SilverStripe ^6
-* dnadesign/silverstripe-elemental ^6
-* dynamic/silverstripe-carousel ^3
+* dnadesign/silverstripe-elemental: ^6
+* dynamic/silverstripe-carousel: ^3
 
 ## Installation
 
@@ -19,7 +19,7 @@ A block to implement dynamic/silverstripe-carousel, a simple carousel for Silver
 
 ## Features
 
-- **Carousel Block**: Elemental block for image carousels
+- **Carousel Block**: An Elemental block for image carousels
 - **Slide Management**: Add, reorder, and manage carousel slides in the CMS
 - **Flexible Configuration**: Control transitions, autoplay, intervals, controls, and indicators
 - **Bootstrap 5 Support**: Default templates optimized for Bootstrap 5
