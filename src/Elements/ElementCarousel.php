@@ -27,10 +27,20 @@ use SilverStripe\Forms\GridField\GridFieldAddExistingAutocompleter;
  */
 class ElementCarousel extends BaseElement
 {
-/**
+    /**
      * @var string
      */
     private static $table_name = 'ElementCarousel';
+
+    /**
+     * @var string
+     */
+    private static $singular_name = 'Carousel';
+
+    /**
+     * @var string
+     */
+    private static $plural_name = 'Carousel Blocks';
 
     /**
      * @var array
