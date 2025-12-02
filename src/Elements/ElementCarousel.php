@@ -110,12 +110,4 @@ class ElementCarousel extends BaseElement
         $blockSchema['content'] = $this->getSummary();
         return $blockSchema;
     }
-
-    /**
-     * @return string
-     */
-    public function getType()
-    {
-        return _t(__CLASS__ . '.BlockType', 'Carousel');
-    }
 }
