@@ -35,15 +35,6 @@ An Elemental block to display an image with a title, caption and link. The image
 
 The default template assumes you are using [Bootstrap 5](https://getbootstrap.com/), and requires no additional javascript. If you are not using Bootstrap, you can use a custom template and include your own javascript.
 
-## Upgrading from version 2
-
-SilverStripe Elemental Carousel 3.0 is compatible with SilverStripe 6. Key changes:
-
-- Updated to SilverStripe CMS 6
-- Requires PHP 8.3 or higher
-- Updated to Elemental 6 and Carousel 3
-- No breaking changes to the API or templates
-
 ## Getting more elements
 
 See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?q=elemental&type=all&language=&sort=)
